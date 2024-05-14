@@ -1,0 +1,45 @@
+.deadline {
+    font-size: 4vw;
+    color: red;
+    font-weight: bold;
+}
+
+.disclaimer {
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+.image-button {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease; /* アニメーションの速度とイージングを定義 */
+  }
+  
+.image-button:hover {
+    transform: scale(1.1); /* ホバー時に画像を1.1倍に拡大 */
+}
+  
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+}
+
+.text-overlay {
+  font-size: 2vw;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+}
