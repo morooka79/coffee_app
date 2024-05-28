@@ -10,3 +10,8 @@ export const getDrinkers = `
       resultMessage
     }
   }`;
+
+  export const resetDrinkers = `
+  query resetDrinkers {
+    resetDrinkers
+  }`;
